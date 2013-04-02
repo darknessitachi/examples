@@ -78,7 +78,124 @@
 
 	<!-- 依赖项定义 -->
 	<dependencies>
-		
+		<!--
+		<dependency>
+                   <groupId>com.sun</groupId>
+                   <artifactId>tools</artifactId>
+                   <version>1.5.0</version>
+                   <scope>system</scope>
+                   <systemPath>${java.home}/../lib/tools.jar</systemPath>
+                </dependency>
+                -->
+
+                <dependency>
+                   <groupId>org.aopalliance</groupId>
+                   <artifactId>aopalliance</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/aopalliance-1.0.jar</systemPath>
+                </dependency>
+                
+                <dependency>
+                   <groupId>net.sf</groupId>
+                   <artifactId>cglib</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/cglib.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>commons-pool</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/commons-pool-1.5.1.jar</systemPath>
+                </dependency>
+                
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>disruptor</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/disruptor-2.10.4.jar</systemPath>
+                </dependency>                   
+                
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>ehcache</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/ehcache-1.6.2.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>guava</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/guava.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>jdom</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/jdom.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>jdonFramework</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/jdonFramework.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>log4j-api</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/log4j-api-2.0-beta3.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>log4j-core</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/log4j-core-2.0-beta3.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>picocontainer</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/picocontainer-1.2.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>scannotation</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/scannotation-1.0.2.jar</systemPath>
+                </dependency>
+
+                <dependency>
+                   <groupId>org.chenj</groupId>
+                   <artifactId>servlet-api</artifactId>
+                   <version>1.0.0</version>
+                   <scope>system</scope>
+                   <systemPath>${basedir}/lib/servlet-api.jar</systemPath>
+                </dependency>
+
+
+                
+                
+                
 	</dependencies>
 	
 	<dependencyManagement>

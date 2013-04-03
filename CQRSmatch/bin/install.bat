@@ -1,7 +1,8 @@
 @rem mvn install:install-file -Dfile=jdonFramework.jar -DgroupId=com.jdon -DartifactId=jdonFramework -Dversion=1.0.0 -Dpackaging=jar
 @echo off
 
-:againset /p _jar=输入jar的文件位置:
+:again
+set /p _jar=输入jar的文件位置:
 set /p _gid=输入groupid:
 set /p _aid=输入artifactid:
 set /p _ver=输入version:

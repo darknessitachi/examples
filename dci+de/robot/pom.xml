@@ -193,6 +193,25 @@
                    <scope>provided</scope>
                 </dependency>
 
+               <dependency>
+                   <groupId>org.springside</groupId>
+                   <artifactId>springside-test</artifactId>
+                   <version>4.1.0-SNAPSHOT</version>
+                </dependency>
+
+		<!-- jetty -->
+		<dependency>
+			<groupId>org.eclipse.jetty.aggregate</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-jsp</artifactId>
+			<version>${jetty.version}</version>
+			<scope>test</scope>
+		</dependency>
 
                 
                 

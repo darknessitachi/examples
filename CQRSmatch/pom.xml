@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.chenj.examples</groupId>
-	<artifactId>CQRSmatch</artifactId>
+	<artifactId>cqrs-es-match</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>chenj :: Example :: CQRS Match</name>
+	<name>chenj :: Example :: cqrs-es-match</name>
 
 	<properties>
 		<!-- 主要依赖库的版本定义 -->
@@ -193,6 +193,25 @@
                    <scope>provided</scope>
                 </dependency>
 
+               <dependency>
+                   <groupId>org.springside</groupId>
+                   <artifactId>springside-test</artifactId>
+                   <version>4.1.0-SNAPSHOT</version>
+                </dependency>
+
+		<!-- jetty -->
+		<dependency>
+			<groupId>org.eclipse.jetty.aggregate</groupId>
+			<artifactId>jetty-webapp</artifactId>
+			<version>${jetty.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.jetty</groupId>
+			<artifactId>jetty-jsp</artifactId>
+			<version>${jetty.version}</version>
+			<scope>test</scope>
+		</dependency>
 
                 
                 

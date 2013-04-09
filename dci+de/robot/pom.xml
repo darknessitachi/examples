@@ -3,10 +3,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.chenj.examples</groupId>
-	<artifactId>cqrs-de-robot</artifactId>
+	<artifactId>dci-de-robot</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>chenj :: Example :: cqrs-de-robot</name>
+	<name>chenj :: Example :: dci-de-robot</name>
 
 	<properties>
 		<!-- 主要依赖库的版本定义 -->

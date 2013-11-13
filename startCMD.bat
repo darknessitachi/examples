@@ -1,0 +1,3 @@
+rem gradlew helloWorld
+@cmd
+

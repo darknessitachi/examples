@@ -1,4 +1,4 @@
-package helloworld
+package racetrack
 
 
 
@@ -8,8 +8,8 @@ import org.junit.*
 /**
  * See the API for {@link grails.test.mixin.web.ControllerUnitTestMixin} for usage instructions
  */
-@TestFor(HelloController)
-class HelloControllerTests {
+@TestFor(RaceController)
+class RaceControllerTests {
 
     void testSomething() {
        fail "Implement me"

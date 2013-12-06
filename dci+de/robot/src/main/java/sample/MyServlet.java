@@ -26,12 +26,11 @@ public class MyServlet extends HttpServlet {
 		robot.setId(id);
 		context.save(robot);
 
-		String name = robot.getName();
 		String result = context.hello(id);
-		resp.getWriter().print(name + " robot response:" + result);
+		resp.getWriter().print("robot response:" + result);
 		resp.getWriter().print("\n");
 		result = context.touch(id);
-		resp.getWriter().print(name + " robot response:" + result);
+		resp.getWriter().print("robot response:" + result);
 		resp.getWriter().close();
 	}
 }
